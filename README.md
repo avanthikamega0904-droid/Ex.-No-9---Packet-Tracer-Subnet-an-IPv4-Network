@@ -1,5 +1,5 @@
 # Ex. No: 9 - Packet Tracer: Subnet an IPv4 Network
-# Date: ___________
+# Date: 25.08.2026
 ________________________________________ <br>
 # Objective
 Design, configure, and verify an IPv4 subnetting scheme in Cisco Packet Tracer.<br>
@@ -20,7 +20,8 @@ ________________________________________
 •	Serial DCE/DTE cable for WAN link<br>
 ________________________________________<br>
 # Network Topology Diagram
-(Insert your Packet Tracer screenshot showing CustomerRouter → LAN-A Switch → PC-A, CustomerRouter → LAN-B Switch → PC-B, and ISP side with Router, Switch, Workstation, Server, and Serial link.)<br>
+<img width="1915" height="1025" alt="Screenshot 2026-08-25 112812" src="https://github.com/user-attachments/assets/3cb08649-dfe8-4bc6-879f-58ee91130ac8" />
+
 ________________________________________<br>
 # Addressing Table
 Device	Interface	IP Address	Subnet Mask	Default Gateway<br>
@@ -94,9 +95,19 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on CustomerRouter<br>
+<img width="1917" height="1017" alt="Screenshot 2026-08-25 112846" src="https://github.com/user-attachments/assets/2d33a709-c47b-4fd1-909e-3541aa9c7340" />
+
 •	show ip route<br>
+<img width="1902" height="1023" alt="Screenshot 2026-08-25 113334" src="https://github.com/user-attachments/assets/31e059b4-b36a-456d-8e97-8e8b84a68b09" />
+<img width="1917" height="1026" alt="Screenshot 2026-08-25 113404" src="https://github.com/user-attachments/assets/a470f758-5746-4102-875e-f27ef427e89c" />
+
 •	Successful pings: PC-A → PC-B, PC-A → ISP Server<br>
+<img width="1917" height="1022" alt="Screenshot 2026-08-25 112926" src="https://github.com/user-attachments/assets/55aa45d2-9dea-4351-9ef2-453f9d21f17e" />
+<img width="1917" height="1025" alt="Screenshot 2026-08-25 112942" src="https://github.com/user-attachments/assets/b0182631-b4d2-42a8-a171-81e19445bb57" />
+
 ________________________________________<br>
 # Result
 The IPv4 subnetting scheme was successfully designed and implemented. Router, switches, and PCs were configured with correct addressing. Connectivity within LANs, across subnets, and to ISP devices was verified using ping and show commands.<br>
+<img width="1910" height="1016" alt="image" src="https://github.com/user-attachments/assets/1c61831f-fa99-4ea0-bf8a-3f5e23048a0b" />
+
 
